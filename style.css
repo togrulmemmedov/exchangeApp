@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital@0;1&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100;200;300;400;500&family=Work+Sans&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container{
+    margin: 0 auto;
+    width: 72%;
+}
+header{
+    width: 100%;
+    height: 3.125rem;
+    background: #F5F5F6; 
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{  
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+}
+li a{
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    text-decoration: none;
+    transition: .5s;
+}
+li a:hover{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+li:first-child a{
+    color: #000;
+}
+li:first-child a:hover{
+    color:  #833AE0;
+}
+.sections{
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    width: 72%;
+}
+.logo-sec{
+    margin-top: 1rem auto .75rem auto;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    margin: auto 6.5rem auto  auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 58px;
+    height: 33px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    transition: .5s;
+    color: #000000; 
+}
+.button:hover{
+    background: #d1d3d6;
+    font-weight: 700;
+}
+.button a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+}
+.title{
+    margin: 3.5rem auto 2rem 0;
+    width: 100%;
+}
+.title h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+} 
+.cost-blocks{
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.choice-list{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-bottom: 1.3rem;
+}
+.choice-list div{   
+    width: 25%;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    transition: .3s;
+}
+.choice-list div:hover{
+    background: #833AE0;
+    border-radius: 3px 0px 0px 3px;
+    color: #FFFFFF;
+}
+.choice-list div p{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+
+}
+.left-block, .right-block{
+    width: 40%;
+}
+.amount-info{
+    width: 120px;
+    height: 28px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+}
+.input-section{
+    height: 8rem;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+input{
+    width: calc(100% - 28px);
+    margin-top: .75rem;
+    margin-left: .9rem;
+    margin-bottom: 1.5rem;
+    height: 2.5rem;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+input:focus{
+    outline: none;    
+}
+.info{
+    height: 28px;
+    margin: 0 auto .25rem 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+}
+
+
+
