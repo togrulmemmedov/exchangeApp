@@ -35,32 +35,30 @@
        <div class="left-block">
            <div class="amount-info">I have</div>
            <div class="choice-list">
-               <div class="rub" id="1"><p>RUB</p></div>
-               <div class="usd"id="2"><p>USD</p></div>
-               <div class="eur" id="3"><p>EUR</p></div>
-               <div class="gbp" id="4"><p>GBP</p></div>
+                <div data-value="RUB" id="c1" class="left"><p>RUB</p></div>
+                <div data-value="USD" id="c2" class="left"><p>USD</p></div>
+                <div data-value="EUR" id="c3" class="left"><p>EUR</p></div>
+                <div data-value="GBP" id="c4" class="left"><p>GBP</p></div>
            </div>
            <div class="input-section">
-               <input type="text">
-               <div class="info">
-                   <p>1 RUB = 0.0135 USD</p>
+               <input id="i1" type="number"  min="0">
+               <div class="info" id="f1">
+                   <p class="base"></p>
                </div>
            </div>
        </div>
        <div class="right-block">
         <div class="amount-info">I want to buy</div>
         <div class="choice-list">
-            <div class="rub" id="5"><p>RUB</p></div>
-            <div class="usd" id="6"><p>USD</p></div>
-            <div class="eur" id="7"><p>EUR</p></div>
-            <div class="gbp" id="8"><p>GBP</p></div>
+            <div data-value="RUB" id="c5" class="right"><p>RUB</p></div>
+            <div data-value="USD" id="c6" class="right"><p>USD</p></div>
+            <div data-value="EUR" id="c7" class="right"><p>EUR</p></div>
+            <div data-value="GBP" id="c8" class="right"><p>GBP</p></div>
         </div>
         <div class="input-section">
-            <input type="text">
-            <div class="info">
-                <p>
-                    1 USD = 73.8896 RUB
-                </p>
+            <input id="i2" type="number" min="0">
+            <div class="info" id="f2">
+                <p class="base"></p>
             </div>
         </div>
     </div> 

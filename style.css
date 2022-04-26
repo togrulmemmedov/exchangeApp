@@ -130,8 +130,15 @@ li:first-child a:hover{
 }
 .choice-list div:hover{
     background: #833AE0;
-    border-radius: 3px 0px 0px 3px;
     color: #FFFFFF;
+}
+#c1, #c6{
+    background: #833AE0;
+    color: #FFFFFF;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 .choice-list div p{
     margin: auto;
@@ -146,7 +153,6 @@ li:first-child a:hover{
     align-items: center;
     text-align: center;
     color: #C6C6C6;
-
 }
 .left-block, .right-block{
     width: 40%;
@@ -199,6 +205,27 @@ input:focus{
     align-items: center;
     color: #C6C6C6;
 }
-
-
-
+@media screen and (max-width: 768px) {
+    *{
+        font-size: 12px;
+    }
+    .sections  ul{
+        display: none;
+    }
+    .logo-sec{
+        margin-left: 10%;
+    }
+    .cost-blocks{
+        flex-direction: column;
+    }
+    .left-block, .right-block{
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .button{
+        height: 25px;
+    }
+    .button a{
+        font-size: 8px;
+    }
+}
