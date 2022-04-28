@@ -61,5 +61,12 @@ function update(first,second,ch){
           .then((data)=>{ 
           infoSec[1].innerText =  "1 " + second + " = "+ data.rates[`${first}`] + " " + first;
       })
+      .catch(error => {
+        alert('API call problem ,try later');
+      });
+     
   })
+  .catch(error => {
+    alert('API call problem ,try later');
+  });
 }
